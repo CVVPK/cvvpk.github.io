@@ -3,6 +3,7 @@ h3 {
 }
 
 body {
+    font-family: "Oxygen", sans-serif;
     color: rgb(51, 51, 51);
     background-color: whitesmoke;
 }
@@ -62,8 +63,8 @@ a:hover {
 #navBar::after {
     background: linear-gradient(
         whitesmoke 75%,
-        rgba(255, 255, 255, 0.8) 50%,
-        rgba(255, 255, 255, 0.4) 70%,
+        rgba(245, 245, 245, 0.8) 50%,
+        rgba(245, 245, 245, 0.4) 70%,
         transparent
     );
     top: 0;
