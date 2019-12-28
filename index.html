@@ -70,13 +70,12 @@
                     <div id="aboutMe" class="nine columns">
                         <h2>Cesar Valdizon</h2>
                         <p>
-                            Hi, I am a full stack developer from Toronto,
-                            Ontario. Some of my biggest passions in life are
-                            learning new things and solving problems. My main
-                            focus is in writing clean and maintainable code, and
-                            keeping a pragmatic approach to solving problems. I
-                            would love to hear from you, even if it's just to
-                            say hi.
+                            Hi, I am a software developer from Toronto, Ontario.
+                            Learning new things and solving problems are my
+                            passions. As a programmer, my main focus is in
+                            writing clean and maintainable code while keeping a
+                            pragmatic approach to solving problems. I would love
+                            to hear from you, even if it's just to say hi.
                         </p>
                     </div>
                     <div id="resumeContainer" class="three columns">
@@ -95,19 +94,19 @@
                     <div class="four columns">
                         <ul>
                             <li>React</li>
+                            <li>TypeScript</li>
                             <li>JavaScript</li>
-                            <li>jQuery</li>
-                            <li>HTML5</li>
-                            <li>CSS3</li>
+                            <li>Java</li>
+                            <li>C++</li>
                         </ul>
                     </div>
                     <div class="four columns">
                         <ul>
                             <li>Node.js</li>
                             <li>Express</li>
-                            <li>C++</li>
-                            <li>Java</li>
-                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
                         </ul>
                     </div>
                     <div class="four columns">
@@ -120,11 +119,9 @@
                     </div>
                 </div>
             </div>
-
             <hr />
-
             <div id="projects" class="row">
-                <h3>Projects</h3>
+                <h3>Personal Projects</h3>
 
                 <div id="TriviaGame" class="row">
                     <div class="three columns">
@@ -148,21 +145,16 @@
                     <div class="nine columns">
                         <h4>Trivia Game</h4>
                         <p>
-                            A responsive, single page React App that uses both
-                            React class components and functional components for
-                            the other UI elements. React Hooks are used to
-                            handle the categories object which is populated
-                            depending on what is available on the server.
-                            Components are plugged into a Settings Context in
-                            order to handle the user selected settings from the
-                            initial screen and a Question Context is used for
-                            components that need access to the current question
-                            object either to display it or modify it.
+                            A responsive, single page React App that I built to
+                            learn React. This project taught me about React
+                            components, React hooks, contexts, immutable state,
+                            AJAX, buffering, and general project structuring.
                         </p>
 
                         <div class="projBar">
                             <span class="tech">
                                 <span class="rounded">React</span>
+                                <span class="rounded">Material-UI</span>
                             </span>
                             <span
                                 ><a
@@ -195,10 +187,10 @@
                     <div class="nine columns">
                         <h4>JS Calculator</h4>
                         <p>
-                            A retro-styled calculator designed with CSS and
-                            HTML. Through the use of String parsing and
-                            manipulation it allows the user to seemingly perform
-                            the basic calculator operations.
+                            A retro-styled calculator. This project was built to
+                            learn string parsing and string manipulation in JS.
+                            Additionally, it helped me to learn about
+                            specificity on CSS.
                         </p>
 
                         <div class="projBar">
@@ -224,134 +216,88 @@
                         </div>
                     </div>
                 </div>
-                <hr />
+            </div>
 
-                <div id="pomodoro" class="row">
-                    <div class="three columns">
-                        <img
-                            src="./assets/img/pomodoro.png"
-                            alt="Pomodoro Preview"
-                            class="u-max-full-width"
-                        />
-                    </div>
+            <hr />
 
+            <div id="oss" class="row">
+                <h3>Open Source Contributions</h3>
+
+                <div class="column">
+                    <h4>VSCode/Vim</h4>
                     <div class="nine columns">
-                        <h4>Pomodoro</h4>
-                        <p>
-                            A custom pomodoro timer. A Timer Object is used to
-                            start a pomodoroEvent Object that implements the
-                            functionality to keep track of its own break and
-                            work timers that are used to display the clock.
-                        </p>
-
-                        <div class="projBar">
-                            <span class="tech">
-                                <span class="rounded">JavaScript</span>
-                                <span class="rounded">HTML</span>
-                                <span class="rounded">CSS</span>
-                            </span>
-                            <span
-                                ><a
-                                    class="site rounded"
-                                    href="https://cvvpk.github.io/pomodoro/"
+                        <ul>
+                            <li>
+                                Application profiling and performance
+                                optimizations (<a
+                                    href="https://github.com/VSCodeVim/Vim/pull/4386"
+                                    class="pr"
                                     target="_blank"
-                                    >View Live</a
-                                >
+                                    >#4386</a
+                                >)
+                            </li>
+                            <li>
+                                Bug patches (<a
+                                    href="https://github.com/VSCodeVim/Vim/pull/4335"
+                                    class="pr"
+                                    target="_blank"
+                                    >#4335</a
+                                >,
                                 <a
-                                    class="repo rounded"
-                                    href="https://github.com/CVVPK/pomodoro"
+                                    href="https://github.com/VSCodeVim/Vim/pull/4337"
+                                    class="pr"
                                     target="_blank"
-                                    >View Repo</a
-                                ></span
-                            >
-                        </div>
+                                    >#4337</a
+                                >)
+                            </li>
+                            <li>
+                                Regression tests (<a
+                                    href="https://github.com/VSCodeVim/Vim/pull/4385"
+                                    class="pr"
+                                    target="_blank"
+                                    >#4385</a
+                                >)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="two columns">
+                        <a
+                            class="repo rounded"
+                            href="https://github.com/VSCodeVim/Vim/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3ACVVPK"
+                            target="_blank"
+                            >View on GitHub</a
+                        >
                     </div>
                 </div>
-                <hr />
-                <div id="WikiSearch" class="row">
-                    <div class="three columns">
-                        <img
-                            src="./assets/img/WikiSearch.png"
-                            alt="Wiki Search Preview"
-                            class="u-max-full-width"
-                        />
-                    </div>
 
+                <div class="column">
+                    <h4>HospitalRun/components</h4>
                     <div class="nine columns">
-                        <h4>Wiki Search</h4>
-                        <p>
-                            A website that lets you make a request to the
-                            Wikipedia API. It then parses the response and
-                            displays the search results through an interface
-                            with unlimited scrolling.
-                        </p>
-
-                        <div class="projBar">
-                            <span class="tech">
-                                <span class="rounded">jQuery</span>
-                                <span class="rounded">JavaScript</span>
-
-                                <span class="rounded">HTML</span>
-                                <span class="rounded">CSS</span>
-                            </span>
-                            <span>
-                                <a
-                                    class="site rounded"
-                                    href="https://cvvpk.github.io/WikiSearch"
+                        <ul>
+                            <li>
+                                React components enhancements, use case stories
+                                and regression tests (<a
+                                    href="https://github.com/HospitalRun/components/pull/168"
+                                    class="pr"
                                     target="_blank"
-                                    >View Live</a
-                                >
+                                    >#168</a
+                                >,
                                 <a
-                                    class="repo rounded"
-                                    href="https://github.com/CVVPK/WikiSearch"
+                                    href="https://github.com/HospitalRun/components/pull/169"
+                                    class="pr"
                                     target="_blank"
-                                    >View Repo</a
-                                >
-                            </span>
-                        </div>
+                                    >#169</a
+                                >)
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <hr />
-                <div id="LocalWeather" class="row">
-                    <div class="three columns">
-                        <img
-                            src="./assets/img/LocalWeather.png"
-                            alt="Wiki Search Preview"
-                            class="u-max-full-width"
-                        />
-                    </div>
-
-                    <div class="nine columns">
-                        <h4>Local Weather</h4>
-                        <p>
-                            A website that makes a request to the API provided
-                            by FCC with the user's current location, parses the
-                            response and shows it to the user.
-                        </p>
-
-                        <div class="projBar">
-                            <span class="tech">
-                                <span class="rounded">jQuery</span>
-                                <span class="rounded">JavaScript</span>
-
-                                <span class="rounded">HTML</span>
-                                <span class="rounded">CSS</span>
-                            </span>
-                            <span>
-                                <a
-                                    class="site rounded"
-                                    href="https://cvvpk.github.io/LocalWeather"
-                                    target="_blank"
-                                    >View Live</a
-                                >
-                                <a
-                                    class="repo rounded"
-                                    href="https://github.com/CVVPK/LocalWeather"
-                                    target="_blank"
-                                    >View Repo</a
-                                >
-                            </span>
-                        </div>
+                    <div class="two columns">
+                        <a
+                            class="repo rounded"
+                            href="https://github.com/HospitalRun/components/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3ACVVPK"
+                            target="_blank"
+                            >View on GitHub</a
+                        >
                     </div>
                 </div>
             </div>
