@@ -26,12 +26,12 @@ a:hover {
     transform: scale(1.1);
 }
 
-a.pr {
+a.noa {
     text-decoration: underline;
     color: rgb(96, 96, 96);
 }
 
-a.pr:hover {
+a.noa:hover {
     transform: none;
 }
 
